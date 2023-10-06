@@ -2,8 +2,15 @@
   width: 100%;
   max-width: 1024px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+}
+
+.pListItemContainer {
+  width: 33.333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .pListItem {
@@ -11,12 +18,18 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  flex-basis: calc(33.333% - 10px);
+  margin-bottom: 20px;
 }
 
 .pListImg {
   width: 100%;
   height: 150px;
   object-fit: cover;
+}
+
+.pListTitles {
+  margin-top: 10px;
 }
 
 .pListTitles>h1 {
@@ -28,4 +41,8 @@
 .pListTitles>h2 {
   font-size: 14px;
   font-weight: 300;
+}
+
+.pListHouseInfo {
+  margin-top: 10px;
 }

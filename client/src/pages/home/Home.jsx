@@ -11,15 +11,18 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Header/>
+      <Header />
       <div className="homeContainer">
-        <Featured/>
-        <h1 className="homeTitle">Browse by property type</h1>
-        <PropertyList/>
-        <h1 className="homeTitle">Homes guests love</h1>
-        <FeaturedProperties/>
-        <MailList/>
-        <Footer/>
+        <h1 className="homeTitle">Куда поедем?</h1>
+        <Featured />
+        <h1 className="homeTitle">
+          Большой выбор номеров на базе отдыха "Чараўніца"
+        </h1>
+        <PropertyList />
+        <h1 className="homeTitle">Дома, которые нравятся гостям</h1>
+        <FeaturedProperties />
+        <MailList />
+        <Footer />
       </div>
     </div>
   );
